@@ -34,9 +34,25 @@ h3 {
     font-size: 28px;
 }
 
-.img {
-    border-radius: 30px;
-    box-shadow: 5px 5px 14px #6D6D6D
+.btn-up {
+  position: fixed;
+  background-image: url(../buttons/Scroll_up_1.svg);
+  /* расстояние от правого края окна браузера */
+  right: 20px;
+  /* расстояние от нижнего края окна браузера */
+  bottom: 0;
+  /* вид курсора */
+  cursor: pointer;
+  /* отображение элемента как flex */
+  display: flex;
+  /* выравниваем элементы внутри элемента по центру вдоль поперечной оси */
+  align-items: center;
+  /* выравниваем элементы внутри элемента по центру вдоль главной оси */
+  justify-content: center;
+  /* ширина элемента */
+  width: 60px;
+  /* высота элемента */
+  height: 50px;
 }
 
 p {
